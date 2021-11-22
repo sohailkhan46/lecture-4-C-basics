@@ -9,7 +9,77 @@ int main()
     char hopefulGrade = 'a';
     double myDecimal = 1.0;
     string minimalSentance = "y";
-    int keyMash = 13213123;    float mysteryDataType = 5.6f; //Use Google to work this out
+    int keyMash = 13213123;    
+    float mysteryDataType = 5.6f;
 
     return 0;
 } 
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float numberOne = 50;
+    float numberTwo = 7;
+    cout << numberOne/numberTwo << endl;
+
+    return 0;
+} 
+
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    cout << "This is untidy code."<<endl;
+
+    cout << "I'm surprised it works."<<endl; 
+
+    int number =   6;
+    cout << "It has" << number <<  "lines of code  - "<<endl ;
+
+
+    cout << "each more hideous than the last."<<endl;
+    cout << "You probably should add some line breaks in the text too" << endl;
+
+    return 0;
+
+} 
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int usb_price = 6;
+    int total_amount = 50;
+    int sticks_can_bought = total_amount/usb_price;
+    int amount_left = total_amount - (usb_price * sticks_can_bought);
+
+    cout<<"amount left "<<amount_left;
+
+    return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+int main (){
+
+int num1= 8;
+int num2= 10;
+int num3= 1+10;
+cout << num1 <<endl;
+cout << num2 <<endl;
+cout << num3 <<endl;
+
+return 0;
+
+
+}
